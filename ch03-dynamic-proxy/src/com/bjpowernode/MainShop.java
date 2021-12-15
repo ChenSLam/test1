@@ -19,6 +19,6 @@ public class MainShop {
         //4.通过代理执行方法
         float price = proxy.sell(3);//执行的是public void invoke()
         System.out.println("通过动态代理对象调用方法:"+price);
-
+        System.out.println("测试");
     }
 }
